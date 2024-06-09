@@ -1,0 +1,247 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+}
+
+nav {
+    padding-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+a:hover {
+    color: #007F66;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.name {
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.name2 {
+    color: #007D65;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+}
+
+.img1 {
+    padding-left: 20px;
+}
+
+.p1 {
+    color: #444;
+}
+
+.name3, .name5 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.name3 {
+    font-size: 30px;
+}
+
+.name4 {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.name5 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.para1, .para2, .short {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444444;
+}
+
+.para1 {
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.sec1 {
+    background-image: url('image/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flex-container1, .flex-container2, .flex-features, .flex-container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.flex-item1, .flex-item2, .flex-item3, .flex-item4, .flex-f1, .flex-f2, .flex-f3, .flex-item5, .flex-fin1, .flex-fin2, .flex-item6 {
+    margin: 10px;
+    flex: 1 1 300px;
+    
+    border-radius: 10px;
+}
+
+.sec3 {
+    padding-top: 50px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00B16E;
+    height: 60px;
+    width: 60px;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+
+.image {
+    height: 40px;
+    width: 40px;
+}
+
+.button2, .button3 {
+    height: 35px;
+    width: 48px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.button2 {
+    background-color: white;
+    border: 0.1px solid grey;
+}
+
+.button3 {
+    background-color: #00B16E;
+    border: none;
+}
+
+.side {
+    width: 65px;
+    height: 70px;
+    float: right;
+}
+
+#fin, #fin2 {
+    background-color: #FAFAFA;
+    border: none;
+    border-radius: 5px;
+    float: right;
+    margin: 5px;
+}
+
+#fin {
+    width: 100%;
+    height: 40px;
+}
+
+#fin2 {
+    height: 180px;
+}
+
+#b1 {
+    height: 35px;
+    width: 85px;
+    color: white;
+    background-color: #00B16E;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.last {
+    background-image: url('image/Rectangle 40.png');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    height: 320px;
+    width: 100%;
+}
+
+.least {
+    font-size: 30px;
+    padding-top: 45px;
+}
+
+.least1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.details {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+}
+
+.flex-contain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+
+.flex1, .flex2, .flex3, .flex4, .flex5 {
+    flex: 1 1 300px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444444;
+}
+
+.L {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.social {
+    padding: 5px;
+}
+
+footer {
+    background-color: #101010;
+    color: white;
+    text-align: center;
+    height: 30px;
+}
+
+@media (max-width: 768px) {
+    .header, .nav, .logo, .name, .name2, .img1, .p1, .name3, .name4, .name5, .para1, .para2, .short, .sec1, .flex-container1, .flex-container2, .sec3, .button, .image, .flex-features, .flex-item5, .button2, .button3, .side, .flex-container3, .flex-fin1, .flex-fin2, .flex-item6, .last, .least, .least1, .details, .flex-contain, .flex1, .flex2, .flex3, .flex4, .flex5, .L, .social, footer {
+        flex-direction: column;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header, .nav, .logo, .name, .name2, .img1, .p1, .name3, .name4, .name5, .para1, .para2, .short, .sec1, .flex-container1, .flex-container2, .sec3, .button, .image, .flex-features, .flex-item5, .button2, .button3, .side, .flex-container3, .flex-fin1, .flex-fin2, .flex-item6, .last, .least, .least1, .details, .flex-contain, .flex1, .flex2, .flex3, .flex4, .flex5, .L, .social, footer {
+        flex-direction: column;
+        padding: 5px;
+        margin: 0;
+    }
+}
